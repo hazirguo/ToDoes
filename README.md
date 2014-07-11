@@ -16,7 +16,18 @@ ToDoes
 - [ ] SCons
 - [ ] JsonCpp
 
+
 ## Linux 编程
 
 - [ ] errno 的使用
 
+
+
+## Linux 命令
+
+- [ ] `screen` 实现多窗口切换
+- [ ] 前后台进程切换
+- 
+
+
+## 杂项
