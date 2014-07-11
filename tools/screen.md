@@ -5,17 +5,28 @@
 我们可以使用 **screen** ！
 
 
-## 基本操作：
+## 基本操作
 
 * 创建一个 screen 窗口
 * 在 screen 窗口之间来回切换
 * screen 窗口与终端窗口之间来回切换
 
 
+## 命令
+
+* screen ： 创建一个新的 screen 窗口
+* screen -ls ： 显示所有的 screen 窗口
+* screen -r *pid* ：后接 screen 进程号切换到该 screen 窗口
 
 
 ## screen 窗口下的快捷键
 
-|-----|----|
 |快捷键 | 说明 |
-|Ctrl+A **C**reate | 创建一个新的 screen 窗口 |
+|-------|------|
+|Ctrl+A  **C** reate | 创建一个新的 screen 窗口会话 |
+|Ctrl+A  **D** etached |  暂时断开 screen 窗口会话 |
+|Ctrl+A  **W** atch | 显示所有 screen 窗口 |
+|Ctrl+A  **0-9** | 切换到 0-9 号 screen 窗口 |
+|Ctrl+A  **Ctrl+A** | 发送 Ctrl+A 信号到 screen 窗口 |
+|Ctrl+A  **K** ill | 杀死当前 screen 窗口 |
+
