@@ -32,3 +32,13 @@
 
 在 vim 命令行模式下输入 `:sh`，即可打开 shell 环境，当需要回到 vim 下时输入 `exit` 即可。
 
+
+## Vim 插件
+
+
+
+## References
+
+* http://www.ibm.com/developerworks/cn/linux/l-cn-tip-vim/
+* http://www.ccvita.com/433.html
+* 
