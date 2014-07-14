@@ -21,16 +21,13 @@
 4444444
 ```
 
-* 发布补丁
+``` bash
+# 发布补丁
+patch -uN v0.1 v0.1.1 > v0.1.1.patch
 
-	patch -uN v0.1 v0.1.1 > v0.1.1.patch
-	
-* 打补丁
+# 打补丁
+patch -p0 < v0.1.1.patch
 
-	patch -p0 < v0.1.1.patch
-
-* 取消补丁
-
-	patch -R -p0 < v0.1.1.patch
-	
-
+# 取消补丁
+patch -R -p0 < v0.1.1.patch
+```
