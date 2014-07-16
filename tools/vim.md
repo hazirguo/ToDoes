@@ -39,6 +39,20 @@
     * `g`（global） 全局替换
     * `c`（confirm） 替换时需要确认
    
+
+## Vim 可视化模式
+
+vim 中有一种 visual 模式，在普通模式下有三种方法进入该模式：
+
+* 按 **`v`** 进入默认 visual 模式
+* 按 **`V`** 进入Line-visual 模式
+* 按 **`Ctrl-v`** 进入 Block-visual 模式
+
+在 visual 模式下，上面的光标移动操作同样适用，选中之后，可以使用： 
+
+> `y` -- 复制；  `p` -- 粘贴；  `d` -- 删除
+
+
 ## Tips & Tricks
 
 ### 1. 临时退出 vim
