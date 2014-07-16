@@ -58,16 +58,16 @@ vim 中有一种 visual 模式，在普通模式下有三种方法进入该模�
 ### 多屏操作
 
 * vim 加参数方式
-    * `vim **-o** file1 file2` -- 横向分割显示两个文件
-    * `vim **-O** file1 file2` -- 纵向分割显示两个文件
+    * `vim -o file1 file2` -- 横向分割显示两个文件
+    * `vim -O file1 file2` -- 纵向分割显示两个文件
 * 在打开的 vim 中
-    * `:vs file` -- 横向分割打开 file 文件
-    * `:sp file` -- 纵向分割打开 file 文件
+    * `:sp file` （split）-- 横向分割打开 file 文件
+    * `:vs file` （vertical split）-- 纵向分割打开 file 文件
 * 多屏之间的切换
-    * `Ctrl+W h|j|k|l`
-    * `Ctrl+W w`
+    * `Ctrl+W h|j|k|l` -- 多个屏之间上下左右切换
+    * `Ctrl+W w` -- 多个屏之间来回切换
 * 关闭窗口
-    * `:q` 或 `:close` -- 关闭光标所在屏
+    * `:q` 或 `:close` 或 `Ctrl+W q` -- 关闭光标所在屏
     * `:only` -- 关闭出光标所在屏的其它屏
     * `:qa` -- 关闭所有屏
 
