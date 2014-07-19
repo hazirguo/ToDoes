@@ -30,6 +30,7 @@ ToDoes
 ## Linux 编程
 
 - [ ] errno 的使用
+- [ ] Filesystem Inotify 机制
 
 
 <a name="linux_cmd"/>
