@@ -9,6 +9,21 @@
 
 ## shmget
 
+函数原型：
+
+``` c
+int shmget(key_t key, size_t size, int shmflg);
+```
+
+函数参数：
+
+* key
+* size
+* shmflag
+
+函数返回值：
+
+
 
 ## shmat
 
