@@ -33,6 +33,7 @@ ToDoes
 - [ ] Filesystem Inotify 机制
 - [ ] 进程管理
 - [ ] 文件管理
+- [ ] 进程间通信
 
 
 <a name="linux_cmd"/>
