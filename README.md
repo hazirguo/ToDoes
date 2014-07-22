@@ -31,6 +31,8 @@ ToDoes
 
 - [ ] errno 的使用
 - [ ] Filesystem Inotify 机制
+- [ ] 进程管理
+- [ ] 文件管理
 
 
 <a name="linux_cmd"/>
