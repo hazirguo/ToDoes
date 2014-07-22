@@ -16,7 +16,10 @@
 
 * screen ： 创建一个新的 screen 窗口
 * screen -ls ： 显示所有的 screen 窗口
-* screen -r *pid* ：后接 screen 进程号切换到该 screen 窗口
+* screen -r *sid* ：对于 Detached 的 screen 会该命令可以重新连接
+* screen -D *sid* : 将 Attached 的 screen 强制 detached
+
+> 使用 ssh 远程时，经常由于网络中断导致下次再连接时，screen 还是 Attached，但是无法使用 `screen -r` 来恢复连接，此时可以使用 `screen -D -r` 命令来强制 detached 前一个screen，然后再连接。
 
 
 ## screen 窗口下的快捷键
