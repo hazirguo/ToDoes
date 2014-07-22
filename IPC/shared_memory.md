@@ -10,7 +10,6 @@
 ## shmget
 
 函数原型：
-
 ``` c
 int shmget(key_t key, size_t size, int shmflg);
 ```
