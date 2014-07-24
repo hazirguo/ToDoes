@@ -7,6 +7,7 @@ ToDoes
 * [技术类](#tech)
 * [Linux 编程](#linux_program)
 * [Linux 命令](#linux_cmd)
+* [Linux 系统管理](#linux_sys)
 * [C++ 编程](#cpp_program)
 * [杂项](#miscellaneous)
 
@@ -41,6 +42,13 @@ ToDoes
 
 - [ ] `screen` 实现多窗口切换
 - [ ] 前后台进程切换
+
+
+<a name="linux_sys"/>
+## Linux 系统管理
+
+- [ ] syslog/syslog-ng
+
 
 <a name="cpp_program"/>
 ## C++ 编程
