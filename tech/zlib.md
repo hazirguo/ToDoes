@@ -18,7 +18,7 @@ $ make install   #安装到 /usr/local/lib/libz.* 和 /usr/local/include/zlib.h
 
 ## Zlib 使用
 
-Zlib 的使用也是非常简单的，所有的函数均包含在头文件 `zlib.h` 中，因此在你的程序加上此头文件，就可以调用 Zlib 库函数了，具体的 Zlib 的 API 参见 [Zlib API 说明]() 一节。
+Zlib 的使用也是非常简单的，所有的函数均包含在头文件 `zlib.h` 中，因此在你的程序加上此头文件，就可以调用 Zlib 库函数了，具体的 Zlib 的 API 参见 [Zlib API 说明](#api) 一节。
 
 编译链接我们的程序时，我们有两种方式将 zlib 库链接进来：（假设 zlib 已经安装到系统目录 `/usr/local`，我们的源程序名为 demo.c）
 
@@ -29,7 +29,7 @@ Zlib 的使用也是非常简单的，所有的函数均包含在头文件 `zlib
 ## Zlib 举例
 
 
-
+<a name="api"/>
 ## Zlib API 说明
 
 
