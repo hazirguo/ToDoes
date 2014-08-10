@@ -6,6 +6,13 @@
 
 ## 2.3 元编程
 
+
+** 进一步阅读：**
+
+* http://www.ibm.com/developerworks/library/l-metaprog1/
+* http://en.wikipedia.org/wiki/Metaprogramming
+* http://stackoverflow.com/questions/3468246/whats-the-use-of-metaprogramming
+
 ## 2.4 内存管理
 
 **GC 的三种基本方式：**
