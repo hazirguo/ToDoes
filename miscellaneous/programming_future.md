@@ -7,7 +7,7 @@
 ## 2.3 元编程
 
 
-** 进一步阅读：**
+**进一步阅读：**
 
 * http://www.ibm.com/developerworks/library/l-metaprog1/
 * http://en.wikipedia.org/wiki/Metaprogramming
